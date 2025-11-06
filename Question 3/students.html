@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Student management dashboard for Computer Science batch 2024." />
+  <title>Student Management Dashboard</title>
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>Student Management Dashboard</h1>
+    <p>Computer Science Department – Batch 2024</p>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+    <!-- Student Table -->
+    <section aria-labelledby="table-heading">
+      <h2 id="table-heading">Student Information Table</h2>
+
+      <table border="1" cellspacing="0" cellpadding="8">
+        <caption>Computer Science Students - Batch 2024</caption>
+
+        <!-- Table Head -->
+        <thead>
+          <tr>
+            <th scope="col">Student ID</th>
+            <th scope="col">Student Name</th>
+            <th scope="col" colspan="2">Course Details</th>
+            <th scope="col" colspan="2">Contact Information</th>
+            <th scope="col">Semester</th>
+            <th scope="col">GPA</th>
+            <th scope="col">Status</th>
+          </tr>
+          <tr>
+            <th></th>
+            <th></th>
+            <th scope="col">Course Name</th>
+            <th scope="col">Credits</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+          <tr>
+            <td>ST001</td>
+            <td>Lakshya Marodia</td>
+            <td>Web Development</td>
+            <td>4</td>
+            <td>lakshya01@example.com</td>
+            <td>+91-9876543210</td>
+            <td>5</td>
+            <td>3.9</td>
+            <td>Active</td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">ST002</td>
+            <td rowspan="2">Ananya Singh</td>
+            <td>Data Structures</td>
+            <td>3</td>
+            <td rowspan="2">ananya.singh@example.com</td>
+            <td rowspan="2">+91-9123456789</td>
+            <td rowspan="2">4</td>
+            <td rowspan="2">3.7</td>
+            <td rowspan="2">Active</td>
+          </tr>
+          <tr>
+            <td>Database Systems</td>
+            <td>4</td>
+          </tr>
+
+          <tr>
+            <td>ST003</td>
+            <td>Rohan Gupta</td>
+            <td>Artificial Intelligence</td>
+            <td>4</td>
+            <td>rohan.g@example.com</td>
+            <td>+91-9080706050</td>
+            <td>6</td>
+            <td>3.8</td>
+            <td>Active</td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">ST004</td>
+            <td rowspan="2">Priya Mehta</td>
+            <td>Machine Learning</td>
+            <td>4</td>
+            <td rowspan="2">priya.mehta@example.com</td>
+            <td rowspan="2">+91-9012345678</td>
+            <td rowspan="2">5</td>
+            <td rowspan="2">3.5</td>
+            <td rowspan="2">Active</td>
+          </tr>
+          <tr>
+            <td>Python Programming</td>
+            <td>3</td>
+          </tr>
+
+          <tr>
+            <td>ST005</td>
+            <td>Rahul Sharma</td>
+            <td>Networking Basics</td>
+            <td>3</td>
+            <td>rahul.s@example.com</td>
+            <td>+91-9001122334</td>
+            <td>3</td>
+            <td>3.2</td>
+            <td>Inactive</td>
+          </tr>
+
+          <tr>
+            <td>ST006</td>
+            <td>Sneha Roy</td>
+            <td>Operating Systems</td>
+            <td>4</td>
+            <td>sneha.roy@example.com</td>
+            <td>+91-9334455667</td>
+            <td>4</td>
+            <td>3.6</td>
+            <td>Active</td>
+          </tr>
+        </tbody>
+
+        <!-- Table Footer -->
+        <tfoot>
+          <tr>
+            <td colspan="9">
+              <strong>Total Students:</strong> 6 &nbsp; | &nbsp;
+              <strong>Average GPA:</strong> 3.62 &nbsp; | &nbsp;
+              <strong>Active:</strong> 5 &nbsp; | &nbsp;
+              <strong>Inactive:</strong> 1
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- Summary Section -->
+    <aside>
+      <h3>Batch Summary</h3>
+      <p>
+        The Computer Science batch of 2024 consists of 6 students enrolled in diverse courses
+        ranging from Web Development and AI to Networking and Databases.
+        The average GPA for the class stands at 3.62 with 5 active and 1 inactive student.
+      </p>
+    </aside>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy;&nbsp;2025 Department of Computer Science, Radha Govind University</p>
+  </footer>
+</body>
+</html>
