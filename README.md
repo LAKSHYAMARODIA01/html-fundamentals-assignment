@@ -85,7 +85,7 @@ html-fundamentals-assignment/
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/LAKSHYAMARODIA01/html-fundamentals-assignment
+   git clone https://github.com/LAKSHYAMARODIA01/html-fundamentals-assignment.git
    ```
 
 2. **Open any HTML file in your browser:**
